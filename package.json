@@ -1,0 +1,23 @@
+{
+  "name": "primus-uuid",
+  "version": "0.1.0",
+  "description": "uuid and authorization plugin for primus",
+  "author": "TouchLay Team <dev@touchlay.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TouchLay/primus-uuid.git"
+  },
+  "keywords": [
+    "primus",
+    "uuid",
+    "authorization"
+  ],
+  "bugs": {
+    "url": "https://github.com/TouchLay/primus-uuid/issues"
+  },
+  "devDependencies": {
+    "primus": "*",
+    "ws": "*"
+  },
+  "license": "BSD"
+}
