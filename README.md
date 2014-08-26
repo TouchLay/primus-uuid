@@ -1,4 +1,4 @@
-# primus-uuid
+# primus-uuid [![NPM version](https://badge.fury.io/js/primus-uuid.svg)](http://badge.fury.io/js/primus-uuid)
 _uuid and authorization plugin for primus_
 
 ## Example
