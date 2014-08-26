@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <title>primus-uuid example</title>
+  <script src="/primus/primus.js"></script>
+</head>
+<body>
+  <script>
+    var primus = new Primus();
+
+    primus.on('open', function open() {
+      console.info('connected');
+    });
+
+    primus.on('data', function received(data) {
+      console.log(data);
+    });
+
+    primus.on('end', function error() {
+      console.error('invalid request');
+    });
+  </script>
+</body>
