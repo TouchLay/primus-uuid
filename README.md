@@ -29,7 +29,7 @@ Run `node example.js` to test this code. (don't forget to `npm install primus ws
 Example output:
 ```
 > node example.js
-server listening on port 1337
+go to http://localhost:1337 to see the example in action
 req uuid 308540f6-b387-4d97-9e5a-8ba4e26ba5b9
 spark data test
 spark uuid 308540f6-b387-4d97-9e5a-8ba4e26ba5b9

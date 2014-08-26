@@ -11,7 +11,7 @@ var server = http.createServer(function requestHandler(req, res) {
   fs.createReadStream(__dirname + '/example.html').pipe(res);
 });
 server.listen(1337, function() {
-  console.log('server listening on port 1337');
+  console.log('go to http://localhost:1337 to see the example in action');
 });
 
 // primus
